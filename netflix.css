@@ -1,0 +1,125 @@
+body {
+    background-image: url(./asses/background_image.jpg);
+
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+
+
+}
+
+.submit {
+    width: 40%;
+    height: 50px;
+    padding-inline-end: 0%;
+    /*Submit' icerisinde ki yazinin konumu degistirmek icin */
+    margin-left: 30%;
+    /* Margin buttonunu ortalamak icin */
+    background-color: red;
+    text-decoration: none;
+    border-radius: 25px;
+    /* Submit kutusunun yanlarini ovallestirmek icin */
+    font-size: large;
+    cursor: pointer;
+
+}
+
+
+.anycomment {
+    margin-left: 4%;
+    /*Feed back kutusunu komple hareket ettirmek icin kullaniliyor. margin-left kutunun sol tarafindan saga dogru itiyor. */
+    width: 75%;
+    /* yorum kutusunu yatay olarak uzatip kisaltiyor*/
+    height: 80px;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding-top: 4%;
+    /* Feed back kutusunun icersinde ki yaziyi yukaridan asagiya dogru itiyor.*/
+    padding-left: 5%;
+    /* yorum kutusunu yatay olarak uzatip kisaltiyor*/
+
+}
+
+.yatayboyut {
+    /*width: 65%;
+    height: 70%;*/
+    margin: 3%;
+    padding-right: 60%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    padding-left: 3%;
+    background-color: rgb(255, 255, 255, 0.9);
+    /* resimde ki renk tonunu ayarlamak icin en son kisim da ki 0.9 etkili*/
+
+}
+
+.series {
+    /*width: 65%;
+    height: 70%;*/
+    margin: 3%;
+    /* Series kutusunun solundan bosluk veriyor. */
+    padding-right: 70%;
+    /*kutunun boyutunu saga dogru uzatiyor. */
+    padding-bottom: 3%;
+    /* series kutusunu asagi dogru uzatip kisaltiyor. */
+    padding-left: 3%;
+    /* Series kutucugunun icerisinde ki yazilara sol sabit olarak saga dogru itiyor.*/
+    padding-top: 3%;
+    /* kutu icerisinde ki yazi sabit kalip yukaridan asagiya dogru itiyor.*/
+    background-color: rgb(255, 255, 255, 0.9);
+
+}
+
+.ferhat {
+    background-color: rgb(0, 0, 0, 0.7);
+    /* Arkada transparan bir görüntü olusturmak icin. 0.8 bu görüntünün yogunlugunu ayarliyor.*/
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+
+
+
+}
+
+.label_white {
+    color: white;
+    padding-left: 4%;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 18px;
+    opacity: 0.8;
+    /* renginin acikligini ayarlama */
+}
+
+.arkafon {
+    background-color: rgb(0, 0, 0, 0.3);
+    margin-top: 2%;
+    /* body'nin altinda olan herseyi yukaridan asagiya dogru sikistiriyor. */
+    margin-bottom: 2%;
+    /* body'nin altinda olan herseyi asagidan yukariya dogru sikistiriyor. */
+    margin-left: 3%;
+    /* body'nin altinda ki herseyi soldan saga dogru kaydiriyor.*/
+    margin-right: 3%;
+    /* body'nin altinda ki herseyi sagdan sola dogru kaydiriyor. */
+    padding-left: 0%;
+    /* transparan kisim haric herseyi soldan saga dogru itiyor. */
+    padding-bottom: 0%;
+    /* transparan kisim haric herseyi altttan yukariya dogru itiyor. */
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    padding: 0%;
+
+}
+
+.moder {
+    padding-left: 3%;
+}
+
+.moder label {
+    padding-left: 1%;
+}
