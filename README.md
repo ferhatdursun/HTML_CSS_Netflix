@@ -4,4 +4,4 @@ https://ferhatdursun.github.io/HTML_CSS_Netflix/
 
 
 
-My_First_Project
+My_First_Proje
